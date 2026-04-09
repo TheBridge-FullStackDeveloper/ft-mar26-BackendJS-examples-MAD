@@ -1,5 +1,5 @@
 const { Pool } = require('pg');
-const queries = require('./queries') // Queries SQL
+const queries = require('../queries/entries.queries') // Queries SQL
 
 const pool = require('../config/db_pgsql');
 
